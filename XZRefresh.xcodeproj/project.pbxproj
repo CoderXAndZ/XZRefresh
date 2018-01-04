@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8471A16C1FFCA4C100C0AE45 /* XZRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8471A16B1FFCA4C100C0AE45 /* XZRefreshView.xib */; };
+		8471A16E1FFCA70500C0AE45 /* XZRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471A16D1FFCA70500C0AE45 /* XZRefreshView.swift */; };
 		84F1B1E81FFB67AF0059C04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B1E71FFB67AF0059C04E /* AppDelegate.swift */; };
 		84F1B1EA1FFB67AF0059C04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B1E91FFB67AF0059C04E /* ViewController.swift */; };
 		84F1B1ED1FFB67AF0059C04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B1EB1FFB67AF0059C04E /* Main.storyboard */; };
 		84F1B1EF1FFB67AF0059C04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B1EE1FFB67AF0059C04E /* Assets.xcassets */; };
 		84F1B1F21FFB67AF0059C04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F1B1F01FFB67AF0059C04E /* LaunchScreen.storyboard */; };
 		84F1B1FD1FFB67AF0059C04E /* XZRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B1FC1FFB67AF0059C04E /* XZRefreshTests.swift */; };
+		84F1B20D1FFB6E750059C04E /* XZRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1B20C1FFB6E740059C04E /* XZRefreshControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8471A16B1FFCA4C100C0AE45 /* XZRefreshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XZRefreshView.xib; sourceTree = "<group>"; };
+		8471A16D1FFCA70500C0AE45 /* XZRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZRefreshView.swift; sourceTree = "<group>"; };
 		84F1B1E41FFB67AF0059C04E /* XZRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F1B1E71FFB67AF0059C04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F1B1E91FFB67AF0059C04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		84F1B1F81FFB67AF0059C04E /* XZRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F1B1FC1FFB67AF0059C04E /* XZRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZRefreshTests.swift; sourceTree = "<group>"; };
 		84F1B1FE1FFB67AF0059C04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F1B20C1FFB6E740059C04E /* XZRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZRefreshControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		84F1B1E61FFB67AF0059C04E /* XZRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				84F1B20B1FFB6E740059C04E /* XZRefreshControl */,
 				84F1B1E71FFB67AF0059C04E /* AppDelegate.swift */,
 				84F1B1E91FFB67AF0059C04E /* ViewController.swift */,
 				84F1B1EB1FFB67AF0059C04E /* Main.storyboard */,
@@ -94,6 +101,17 @@
 				84F1B1FE1FFB67AF0059C04E /* Info.plist */,
 			);
 			path = XZRefreshTests;
+			sourceTree = "<group>";
+		};
+		84F1B20B1FFB6E740059C04E /* XZRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				84F1B20C1FFB6E740059C04E /* XZRefreshControl.swift */,
+				8471A16D1FFCA70500C0AE45 /* XZRefreshView.swift */,
+				8471A16B1FFCA4C100C0AE45 /* XZRefreshView.xib */,
+			);
+			name = XZRefreshControl;
+			path = ../../XZSwfitWB/XZSwfitWB/Class/Tools/XZRefreshControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +199,7 @@
 			files = (
 				84F1B1F21FFB67AF0059C04E /* LaunchScreen.storyboard in Resources */,
 				84F1B1EF1FFB67AF0059C04E /* Assets.xcassets in Resources */,
+				8471A16C1FFCA4C100C0AE45 /* XZRefreshView.xib in Resources */,
 				84F1B1ED1FFB67AF0059C04E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F1B1EA1FFB67AF0059C04E /* ViewController.swift in Sources */,
+				84F1B20D1FFB6E750059C04E /* XZRefreshControl.swift in Sources */,
+				8471A16E1FFCA70500C0AE45 /* XZRefreshView.swift in Sources */,
 				84F1B1E81FFB67AF0059C04E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
